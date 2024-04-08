@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* transform: scale(90%); */
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.scale-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.text-grey {
+  color: grey;
+}
+
+#navbar {
+  padding: 1rem 10rem;
+}
+
+#navbar .nav-brand {
+  display: block;
+  font-size: 1.25rem;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.nav-brand .nav-brand-title {
+  position: absolute;
+  margin-left: 0.5rem;
+  display: inline-block;
+}
+
+#navbar .nav-brand-icon {
+  display: inline-block;
+  border: 1px solid #142945;
+  background-color: #142945;
+  border-radius: 100%;
+  padding: 0.5rem;
+  color: #daac04;
+  font-size: 0.8rem;
+  width: 2rem;
+  text-align: center;
+}
+
+#navbar .nav-item {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+#navbar .nav-item .nav-link {
+  color: black;
+  text-decoration: none;
+}
+
+#navbar .nav-item .nav-link:hover {
+  border-bottom: 1px solid black;
+}
+
+#carousel .carousel-img {
+  width: 100%;
+  height: calc(100vh - 6.27rem);
+  object-fit: cover;
+  object-position: top;
+}
+
+main section {
+  padding: 4rem 10rem;
+}
+
+main section:nth-of-type(2n) {
+  background-color: #f3f4f6;
+}
+
+#about {
+  vertical-align: text-top;
+}
+
+#about .about-desc {
+  float: left;
+  width: 47%;
+  margin-right: 3%;
+}
+
+#about .about-img {
+  width: 47%;
+  border-radius: 0 3px 3px 0;
+}
+
+#about h1 {
+  font-size: 1.75rem;
+}
+
+#about p {
+  color: #686868;
+  margin: 1.5rem 0;
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+#about .button {
+  margin-top: 0.5rem;
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  font-weight: bold;
+  border-radius: 0.2rem;
+  background-color: gold;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+#info .container {
+  margin: auto 0;
+}
+
+#info .info {
+  display: inline-block;
+  width: calc(98% / 4);
+}
+
+#info .info h1 {
+  display: inline-block;
+  font-size: 3rem;
+}
+
+#info .info p {
+  display: inline-block;
+  width: 10rem;
+}
+
+#services article {
+  display: inline-block;
+  padding: 2rem;
+  margin: 0.5rem 0.5rem;
+  width: 13.35rem;
+  color: white;
+  border-radius: 0.3rem;
+  background-color: #142945;
+  text-align: center;
+}
+
+#services p:first-of-type {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#agency #latest-posts {
+  display: inline-block;
+  width: 47%;
+  margin-right: 5%;
+}
+
+#agency #upcoming-events {
+  float: right;
+  width: 47%;
+}
+
+#agency h1 {
+  margin-bottom: 2rem;
+}
+
+#agency .container {
+  padding: 1.5rem;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+#agency .button-end {
+  text-align: end;
+}
+
+#agency .button-end button {
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  background-color: gold;
+  border-radius: 0.25rem;
+}
+
+#agency #latest-posts .container article {
+  padding-bottom: 2em;
+  border-bottom: 0.1px solid #848484;
+}
+
+#agency #latest-posts .container article:nth-of-type(n + 2) {
+  padding-top: 1.25rem;
+}
+
+#agency #latest-posts .container article:last-of-type {
+  padding-bottom: 0.3rem;
+  border-bottom: none;
+}
+
+#agency #latest-posts .container article img {
+  float: left;
+  width: 35%;
+  border-radius: 0.25rem;
+}
+
+#agency .container article .desc {
+  padding-left: 1rem;
+  display: inline-block;
+  width: 64%;
+}
+#agency .container article .desc h4 {
+  margin-bottom: 0.5rem;
+}
+
+#agency .container article .desc p:first-of-type {
+  margin-bottom: 1rem;
+  color: #848484;
+}
+
+#agency p {
+  font-size: 0.8rem;
+}
+
+#agency #upcoming-events .container {
+  padding: 1rem 0.5rem;
+}
+
+#agency #upcoming-events .container .date {
+  float: left;
+  width: 29%;
+  text-align: center;
+}
+
+#agency #upcoming-events .container .date .day,
+#agency #upcoming-events .container .date .year {
+  margin-right: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+#agency #upcoming-events .container .date .day {
+  background-color: gold;
+  padding: 1rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+#agency #upcoming-events .container .date .year {
+  background-color: #142945;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+
+#agency #upcoming-events .container article {
+  display: inline-block;
+  width: 69%;
+  line-height: 1.3;
+}
+
+#agency #upcoming-events .container article h4 {
+  margin-bottom: 1rem;
+}
+
+#agency #upcoming-events .container article p {
+  color: #848484;
+}
+
+#agency #upcoming-events .container article .timeline {
+  margin-top: 0.25rem;
+}
+
+#agency #upcoming-events .container article .timeline p {
+  display: inline-block;
+  color: #142945;
+}
+
+#agency #upcoming-events .container article .timeline p:first-of-type {
+  border-right: 1px solid #848484;
+  padding-right: 0.5rem;
+}
+
+#agency #upcoming-events .container article .timeline p:last-of-type {
+  padding-left: 0.25rem;
+}
+
+footer {
+  padding: 4rem 10rem;
+  background-color: #142945;
+  color: white;
+}
+
+footer .footer-header {
+  margin-bottom: 1.5rem;
+}
+
+footer p,
+footer i,
+footer a {
+  font-size: 0.75rem;
+}
+
+footer a {
+  color: white;
+}
+
+footer i {
+  color: gold;
+}
+
+footer .footer-article-group {
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 0.1px solid #848484;
+}
+
+footer .footer-link-group .footer-link {
+  display: block;
+}
+
+footer .footer-link-group .footer-link {
+  margin-bottom: 0.75rem;
+}
+
+footer .footer-article-group div {
+  padding-right: 1rem;
+  display: inline-block;
+  width: calc(99% / 3);
+}
+
+footer .footer-article-group div:first-of-type {
+  float: left;
+}
+
+footer .footer-article-group .content {
+  display: block;
+  width: 100%;
+}
+
+footer .footer-article-group .content i {
+  float: left;
+  width: 1rem;
+}
+
+footer .footer-article-group .content {
+  margin-bottom: 0.75rem;
+}
